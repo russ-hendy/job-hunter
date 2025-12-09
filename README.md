@@ -9,6 +9,17 @@ A **Local "Sidecar" Agent** that helps you organize your job search, tailor appl
 - **Browser Automation**: Playwright (Local Headed Mode)
 - **Data**: Local JSON + Vector Store (ChromaDB)
 
+## Data Privacy & Setup
+
+This project uses a **Template Pattern** to keep your personal data safe.
+
+1.  **Copy the template**:
+    ```bash
+    cp data/bio.example.json data/bio.json
+    ```
+2.  **Edit `data/bio.json`**: Fill in your real details (Phone, Address, Resume paths).
+3.  **Git Safety**: `data/bio.json` is ignored by git. **Do not** remove it from `.gitignore`.
+
 ## Getting Started
 
 ### Prerequisites
