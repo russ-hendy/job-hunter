@@ -1,0 +1,91 @@
+{
+    "meta": {
+        "user_name": "Russ",
+        "version": "1.0",
+        "last_updated": "2025-12-09"
+    },
+    "admin_data": {
+        "contact": {
+            "email": "russ@example.com",
+            "phone": "+447000000000",
+            "linkedin": "linkedin.com/in/russ",
+            "portfolio": "github.com/russ"
+        },
+        "logistics": {
+            "location": "London, UK",
+            "work_authorization": "Citizen",
+            "visa_sponsorship_needed": false,
+            "notice_period": "3 months",
+            "current_salary_currency": "GBP",
+            "expected_salary_range": "80000-100000"
+        },
+        "demographics": {
+            "gender": "Prefer not to say",
+            "veteran_status": "No",
+            "disability_status": "No"
+        }
+    },
+    "personas": [
+        {
+            "id": "persona_ai_eng",
+            "title": "AI & Python Engineer",
+            "keywords": [
+                "Python",
+                "FastAPI",
+                "LLM",
+                "RAG",
+                "Agentic"
+            ],
+            "summary_text": "Experienced Developer pivoting to AI Engineering...",
+            "resume_file_path": "./data/assets/CV_AI_Engineer.pdf"
+        },
+        {
+            "id": "persona_fullstack",
+            "title": "Senior Full Stack Dev",
+            "keywords": [
+                "Node.js",
+                "Vue.js",
+                "JavaScript",
+                "System Design"
+            ],
+            "summary_text": "Senior Full Stack Developer with 10 years of experience...",
+            "resume_file_path": "./data/assets/CV_FullStack_General.pdf"
+        },
+        {
+            "id": "persona_consultant",
+            "title": "Technical Consultant",
+            "keywords": [
+                "Stakeholder Management",
+                "Agile",
+                "Digital Transformation"
+            ],
+            "summary_text": "Technical consultant bridging the gap between business and code...",
+            "resume_file_path": "./data/assets/CV_Consultancy.pdf"
+        }
+    ],
+    "professional_history": [
+        {
+            "company": "Tech Corp",
+            "role": "Senior Dev",
+            "dates": "2020-Present",
+            "highlights": [
+                "Led migration from React to Vue.js reducing load times by 40%.",
+                "Orchestrated microservices using Node.js.",
+                "Recently prototyped internal LLM tools using LangChain."
+            ],
+            "technologies": [
+                "Vue.js",
+                "Node.js",
+                "AWS"
+            ]
+        }
+    ],
+    "qa_memory": [
+        {
+            "question_hash": "why_leave_current_role",
+            "question_text": "Why are you looking to leave your current position?",
+            "answer": "I am looking to focus more heavily on AI and Python development...",
+            "times_used": 5
+        }
+    ]
+}
