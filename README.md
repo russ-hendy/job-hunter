@@ -1,6 +1,16 @@
-# Job Hunter Agent 🕵️‍♂️💼
+# Job Hunter Agent
 
-A **Local "Sidecar" Agent** that helps you organize your job search, tailor applications, and (cautiously) automate interactions.
+Can I automate a job search while learning about multi-agent orchestration using LangGraph? This project - done in tandem with Google's Antigravity - is an attempt to find out!
+
+A **Local Agent** that helps organise a job search, tailors applications, and (cautiously) automates interactions.
+
+The plan is to build a few separate agents that do different things:
+
+- **Link Collector**: Parses job alert emails (does NOT scrape LinkedIn search).
+- **Job Analyser**: Evaluates job descriptions against a stored profile.
+- **Cover Letter Generator**: Generates cover letters and answers.
+- **Application Navigator**: Automates the form filling (with meat-sack supervision, at least for now).
+
 
 ## Architecture
 
@@ -11,13 +21,13 @@ A **Local "Sidecar" Agent** that helps you organize your job search, tailor appl
 
 ## Data Privacy & Setup
 
-This project uses a **Template Pattern** to keep your personal data safe.
+This project uses a **Template Pattern** to keep personal data safe.
 
 1.  **Copy the template**:
     ```bash
     cp data/bio.example.json data/bio.json
     ```
-2.  **Edit `data/bio.json`**: Fill in your real details (Phone, Address, Resume paths).
+2.  **Edit `data/bio.json`**: Fill in your real details (Phone, Address, paths to different CVs).
 3.  **Git Safety**: `data/bio.json` is ignored by git. **Do not** remove it from `.gitignore`.
 
 ## Getting Started
